@@ -253,23 +253,3 @@
         footer p {
             font-size: 1rem;
         }
-
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            nav ul {
-                display: none; /* Hide default nav on mobile */
-            }
-
-            .hamburger {
-                display: flex; /* Show hamburger on mobile */
-            }
-
-            .mobile-menu {
-                display: none; /* Initially hide mobile menu */
-            }
-
-            .service-item,
-            .case-item {
-                width: 80%; /* Stack services and case studies on mobile */
-            }
-        }
