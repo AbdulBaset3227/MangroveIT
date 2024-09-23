@@ -13,7 +13,8 @@
             }
 
             .hamburger {
-                display: flex; /* Show hamburger on mobile */
+                display: flex;
+                align-items: right; /* Show hamburger on mobile */
             }
 
             .mobile-menu {
