@@ -1,6 +1,14 @@
  /* Responsive Styles */
+        
         @media (max-width: 768px) {
-            nav ul {
+           #header{
+               gap: 200px;
+               align-items: center;
+           }
+           .logo h1{
+                font-size: 30px;
+            }
+           nav ul {
                 display: none; /* Hide default nav on mobile */
             }
 
@@ -17,3 +25,17 @@
                 width: 80%; /* Stack services and case studies on mobile */
             }
         }
+@media (max-width: 480px){
+
+    #header{
+        gap: 150px;
+        align-items: center;
+    }
+    .logo h1{
+        font-size: 25px;
+    }
+    .hero h2{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+}
