@@ -31,12 +31,17 @@
     .header{
         gap: 150px;
         align-items: center;
+        height: 15%;
     }
     .logo h1{
         font-size: 25px;
     }
+
+    .hero {
+        height: 85%;
+ 
     .hero h2{
-        font-size: 2rem;
-        line-height: 2.2rem;
+        font-size: 18px;
+        line-height: 20px;
     }
 }
