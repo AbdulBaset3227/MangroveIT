@@ -1,46 +1,42 @@
- /* Responsive Styles */
-        
-        @media (max-width: 768px) {
-           .header{
-               gap: 200px;
-               align-items: center;
-           }
-           .logo h1{
-                font-size: 30px;
-            }
-           nav ul {
-                display: none; /* Hide default nav on mobile */
-            }
+/* Responsive Styles */
 
-            .hamburger {
-                display: flex;
-                align-items: right; /* Show hamburger on mobile */
-            }
+@media (max-width: 768px) {
+    .header {
+        gap: 200px;
+        align-items: center;
+    }
+    .logo h1 {
+        font-size: 30px;
+    }
+    nav ul {
+        display: none; /* Hide default nav on mobile */
+    }
+    .hamburger {
+        display: flex;
+        align-items: center; /* Corrected this line */
+    }
+    .mobile-menu {
+        display: none; /* Initially hide mobile menu */
+    }
+    .service-item,
+    .case-item {
+        width: 80%; /* Stack services and case studies on mobile */
+    }
+}
 
-            .mobile-menu {
-                display: none; /* Initially hide mobile menu */
-            }
-
-            .service-item,
-            .case-item {
-                width: 80%; /* Stack services and case studies on mobile */
-            }
-        }
-@media (max-width: 480px){
-
-    .header{
+@media (max-width: 480px) {
+    .header {
         gap: 150px;
         align-items: center;
         height: 15%;
     }
-    .logo h1{
+    .logo h1 {
         font-size: 25px;
     }
-
     .hero {
         height: 85%;
- 
-    .hero h2{
+    } /* Added missing closing brace */
+    .hero h2 {
         font-size: 18px;
         line-height: 20px;
     }
